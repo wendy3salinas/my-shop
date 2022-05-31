@@ -24,7 +24,6 @@ main{
     z-index: 2;
     backdrop-filter: blur(1rem);
     display: flex;
-
 }   
 
 .circle1, .circle2, .circle3{
@@ -37,7 +36,7 @@ main{
 }
 
 .circle1{
-    top: 5%;
+    top: 3%;
     right: 15%;
 }
 
@@ -49,7 +48,7 @@ main{
 }
 
 .circle3{
-    bottom: 5%;
+    bottom: 2%;
     right: 25%;
     height: 12rem;
     width: 12rem;
@@ -99,14 +98,14 @@ img {
 }
 
 .contact{
-    background:  linear-gradient(to right top, #dfb9e2, #EED9E4);
+    background:  linear-gradient(to right top, #efc7f1, #EED9E4);
     padding: 2.5rem;
     border-radius: 1rem;
     display: flex;
     position: relative;
     width: 65%;
     margin-bottom: 5%;
-
+    box-shadow: 6px 6px 20px rgba(112, 112, 112, .3);
 }
 
 h1{
@@ -148,19 +147,29 @@ p{
     width: 50%;
     padding: 0.5rem;
     border-radius: 2rem;
-    
 }
 
 .services{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin: 5rem;
+    margin: 3rem;
 }
 
 .service{
     display: flex;
-    background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.8));
+    background: linear-gradient(rgba(255, 255, 255, .6), rgba(255, 255, 255, 0.4));
     margin: 2rem;
-    border-radius: 1rem;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 6px 6px 15px rgba(112, 112, 112, .5);
+    
+}
+
+.service-info{
+    margin-top: 10px;
+}
+
+.availability{
+    margin-top: 5px;
 }
