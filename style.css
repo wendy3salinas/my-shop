@@ -26,7 +26,7 @@ main{
     display: flex;
 }   
 
-.circle1, .circle2, .circle3{
+.circle1, .circle2, .circle3, .circle4{
     background: #fff;
     background: linear-gradient(to right bottom, rgba(255, 255, 255, .6), rgba(255, 255, 255, 0.1));
     height: 18rem;
@@ -172,4 +172,101 @@ p{
 
 .availability{
     margin-top: 5px;
+    margin-left: 5px;
+}
+
+@media(max-width: 500px){
+   .glass{
+       margin: 10%;
+       /*min-height: 40vh;*/
+       display: flex;
+       flex-direction: column;
+       width: 80%;
+   }
+   
+   .dashboard{
+       width: 100%;
+}
+
+    .status{
+        margin-top: 35px;
+        margin-bottom: 15px;
+        margin-left: 35px;
+    }
+
+
+    .availability{
+        margin-right: 10px;
+    }
+
+    h2{
+        font-family: 'Tiro Devanagari Sanskrit', serif;
+        color: #827fce;
+        opacity: 70%;
+        font-size: 18px;
+    }
+
+    h3{
+        font-family: 'Tiro Devanagari Sanskrit', serif;
+        color: #827fce;
+        opacity: 70%;
+        font-size: 12px;
+    }
+
+   .services{
+       margin: 0rem;
+       margin-top: 30px;
+   }
+
+
+   .service img{
+     max-height: 60px;
+     max-width: 60px;
+     margin-top: 5px;
+   }
+
+   img {
+    max-width: 30px;
+    max-height: 40px;
+}
+
+.circle1, .circle2, .circle3{
+    background: #fff;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, .6), rgba(255, 255, 255, 0.1));
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle1{
+    top: 2%;
+    right: 2%;
+}
+
+.circle2{
+    bottom: 10%;
+    left: 4%;
+    height: 9rem;
+    width: 9rem;
+}
+
+.circle3{
+    bottom: -30%;
+    right: 2%;
+    height: 6rem;
+    width: 6rem;
+}
+
+.circle4{
+    bottom: -115%;
+    right: 5%;
+    height: 15rem;
+    width: 15rem;
+}
+
+.status input{
+    width: 100%;
+}
+
 }
