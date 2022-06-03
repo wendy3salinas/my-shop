@@ -105,7 +105,11 @@ img {
     position: relative;
     width: 65%;
     margin-bottom: 5%;
-    box-shadow: 6px 6px 20px rgba(112, 112, 112, .3);
+    box-shadow: 6px 6px 20px rgba(112, 112, 112, .1);
+}
+
+.contact:hover{
+    box-shadow: 6px 6px 20px rgba(112, 112, 112, .5);
 }
 
 h1{
@@ -162,8 +166,11 @@ p{
     margin: 2rem;
     border-radius: 15px;
     overflow: hidden;
+    box-shadow: 6px 6px 15px rgba(112, 112, 112, .1);
+}
+
+.service:hover{
     box-shadow: 6px 6px 15px rgba(112, 112, 112, .5);
-    
 }
 
 .service-info{
@@ -269,4 +276,80 @@ p{
     width: 100%;
 }
 
+}
+
+@media(max-width: 900px){
+    .glass{
+        margin: 4%;
+        width: 100%;
+    }
+
+
+    .circle1{
+        top: 2%;
+        right: 5%;
+    }
+
+    .circle2{
+        top: 50%;
+        left: -2%;
+    }
+
+    .circle3{
+        bottom: -5%;
+        right: 20%;
+    }
+
+    .user img{
+        max-width: 125px;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    .links{
+        margin-left: 0;
+    }
+
+    .links img{
+        max-width: 70px;
+    }
+
+    .status{
+        margin: 3rem;
+        margin-top: 80px;
+    }
+
+    .status input{
+        width: 100%;
+    }
+
+    .services{
+        margin: 0;
+        align-items: center;
+    }
+
+    .service{
+        width: 90%;
+    }
+
+    .service img{
+        max-width: 50px;
+        max-height: 65px;
+        margin-top: 10px;
+    }
+
+    .service-info{
+        margin-left: 11.8px;
+    }
+
+    .availability{
+        font-size: 18px;
+        margin-right: 10px;
+    }
 }
